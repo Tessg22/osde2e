@@ -9,7 +9,6 @@ require (
 	github.com/PagerDuty/go-pagerduty v1.4.3
 	github.com/PuerkitoBio/goquery v1.8.0
 	github.com/adamliesko/retry v0.0.0-20200123222335-86c8baac277d
-	github.com/antlr/antlr4 v0.0.0-20200209180723-1177c0b58d07
 	github.com/aws/aws-sdk-go v1.42.43
 	github.com/bmizerany/perks v0.0.0-20141205001514-d9a9656a3a4b // indirect
 	github.com/cenkalti/backoff/v4 v4.1.0 // indirect
@@ -48,34 +47,34 @@ require (
 	github.com/openshift/rosa v1.1.3-0.20210915184258-dd4fe43a0f71
 	github.com/openshift/route-monitor-operator v0.0.0-20210309123726-229da76cc133
 	github.com/openshift/splunk-forwarder-operator v0.0.0-20201112162206-2f454770b6c0
-	github.com/operator-framework/api v0.3.6
+	github.com/operator-framework/api v0.17.0
 	github.com/operator-framework/operator-lifecycle-manager v0.0.0-20200521062108-408ca95d458f
 	github.com/ory/dockertest v3.3.5+incompatible
 	github.com/pganalyze/pg_query_go/v2 v2.1.0
 	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.44.1
 	github.com/prometheus-operator/prometheus-operator/pkg/client v0.45.0
 	github.com/prometheus/alertmanager v0.21.0
-	github.com/prometheus/client_golang v1.9.0
-	github.com/prometheus/common v0.15.0
+	github.com/prometheus/client_golang v1.12.1
+	github.com/prometheus/common v0.32.1
 	github.com/redhat-cop/must-gather-operator v1.1.2
 	github.com/slack-go/slack v0.10.1
 	github.com/spf13/afero v1.8.0
-	github.com/spf13/cobra v1.3.0
+	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.10.1
 	github.com/streadway/quantile v0.0.0-20150917103942-b0c588724d25 // indirect
 	github.com/tsenart/go-tsz v0.0.0-20180814235614-0bd30b3df1c3 // indirect
 	github.com/tsenart/vegeta v12.7.0+incompatible
 	github.com/vmware-tanzu/velero v1.5.0-beta.1.0.20200831161009-1dcaa1bf7512
-	golang.org/x/net v0.0.0-20211216030914-fe4d6282115f
-	golang.org/x/tools v0.1.8
+	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd
+	golang.org/x/tools v0.1.10-0.20220218145154-897bd77cd717
 	google.golang.org/api v0.65.0
 	google.golang.org/genproto v0.0.0-20220107163113-42d7afdf6368
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
-	k8s.io/api v0.20.2
-	k8s.io/apimachinery v0.20.2
+	k8s.io/api v0.24.0
+	k8s.io/apimachinery v0.24.0
 	k8s.io/client-go v12.0.0+incompatible
-	k8s.io/utils v0.0.0-20200729134348-d5654de09c73
+	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 )
 
 replace (
